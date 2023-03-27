@@ -1,0 +1,43 @@
+header {
+  width: 100wv;
+  height: 5rem;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+section {
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 40rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8097aa;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%230f5188' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: rgb(15, 81, 136);
+  background: linear-gradient(
+    0deg,
+    rgba(15, 81, 136, 1) 0%,
+    rgba(128, 151, 170, 1) 93%
+  );
+  border: none;
+}

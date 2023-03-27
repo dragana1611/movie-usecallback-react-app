@@ -1,0 +1,27 @@
+.movie {
+  margin: 1rem;
+  padding: 1rem;
+  background: rgb(15, 81, 136);
+  background: linear-gradient(
+    0deg,
+    rgba(15, 81, 136, 1) 0%,
+    rgba(128, 151, 170, 1) 93%
+  );
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.movie h2 {
+  font-size: 2rem;
+  color: #e8dc2c;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.movie h3 {
+  color: #d6bb6b;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+  margin: 0;
+  font-size: 1rem;
+}
